@@ -1,4 +1,3 @@
-import token from '../util/token';
 import UserModel from '../user/model';
 
 export default {
