@@ -36,7 +36,7 @@ export default {
     
                     res.json({
                         success: true,
-                        token: token.generateToken(savedUser)
+                        token: '1234'
                     })
                 })
             })
@@ -64,7 +64,7 @@ export default {
                             }
     
                             res.send({
-                                token: token.generateToken(existingUser)
+                                token: '1234'
                             })
                     })
                 }

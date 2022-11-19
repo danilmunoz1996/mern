@@ -3,7 +3,7 @@
   "description": "Simple starter package for Redux with React and Babel support",
   "scripts": {
     "dev": "npm ls react && webpack-dev-server --open --config webpack.dev.js",
-    "start": "serve ../docs",
+    "start": "PORT=8080 serve ../docs",
     "build": "rm -rf ../docs && webpack --config webpack.prod.js && npm run copy:static",
     "copy:static": "cp -rf ./src/statics ../docs"
   },
